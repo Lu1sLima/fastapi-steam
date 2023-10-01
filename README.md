@@ -7,7 +7,7 @@
 
 ## Descrição
 
-Este é um trabalho da disciplina de Coleta, Preparação e Análise de dados que demonstra o uso do FastAPI para criar uma API para gerenciar informações sobre jogos da STEAM.
+Este é um trabalho da disciplina de **Coleta, Preparação e Análise de Dados** que demonstra o uso do FastAPI para criar uma API para gerenciar informações sobre jogos da STEAM.
 O projeto foi hospedado no vercel, e pode ser encontrado no link: https://t2-coleta-4xn81r5so-lu1s-projects.vercel.app/
 
 
