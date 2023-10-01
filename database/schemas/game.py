@@ -21,10 +21,10 @@ class GameSchema(SQLModel, table=False):
     platforms: Optional[list[str]] = []
     categories: Optional[list[str]] = []
     genres: Optional[list[str]] = []
-    steampsy_tags: Optional[list[str]] = []
+    steamspy_tags: Optional[list[str]] = []
     owners: Optional[str] = None
 
-    @validator('platforms', 'categories', 'genres', 'steampsy_tags', pre=True)
+    @validator('platforms', 'categories', 'genres', 'steamspy_tags', pre=True)
     @classmethod
     def split_data(cls, v: str):
         if v and type(v) is str:

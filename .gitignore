@@ -12,6 +12,7 @@ __pycache__/
 
 .DS_Store
 # Distribution / packaging
+venv/
 .Python
 build/
 develop-eggs/
@@ -175,3 +176,4 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+.vercel

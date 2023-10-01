@@ -8,7 +8,7 @@ class Game(SQLModel, table=True):
     __tablename__ = 'games'
 
     appid: int = Field(alias="appid", default=None, primary_key=True)
-    name: str
+    name: str = Field(unique=True)
     release_date: date
     developer: str
     publisher: str

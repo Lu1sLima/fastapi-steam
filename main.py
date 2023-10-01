@@ -1,5 +1,7 @@
 import uvicorn
 from app import app
+from os import getenv
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8000)
+    port = int(getenv("PORT", 8000)) 
+    uvicorn.run("app:app", host="0.0.0.0", port=port)
